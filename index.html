@@ -1,206 +1,562 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Diamond Shield Consulting</title>
-    <meta charset="utf-8" />
-    <meta
-      name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+﻿<!DOCTYPE html>
 
-    <link rel="stylesheet" href="assets/css/main.css" />
+<html lang="en">
+  <!-- Mirrored from somsec.n../../index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Feb 2024 12:29:10 GMT -->
+  <head>
+    <!--Important Tags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <!--Animations-->
+    <link href="./dist/aos.css" rel="stylesheet" />
+    <!--FontAwesome 6 CSS-->
+    <link href="./fontawesome-icons/css/all.min.css" rel="stylesheet" />
+    <link href="./fontawesome-icons/css/brands.css" rel="stylesheet" />
+    <link href="./fontawesome-icons/css/solid.css" rel="stylesheet" />
+    <!--Title & Favicon-->
+    <title>SomSec Technologies</title>
+    <link rel="shortcut icon" href="Images/SomSecIcon.png" />
   </head>
-  <body class="landing">
-    <!-- Header -->
-    <header id="header" class="alt">
-      <h1><a href="index.html">Diamond</a></h1>
-      <a href="#nav">Menu</a>
-    </header>
-    <!-- Nav -->
-    <nav id="nav">
-      <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
+  <body
+    data-aos-easing="ease-out-back"
+    data-aos-duration="1000"
+    data-aos-delay="0"
+  >
+    <!--Navigation Bar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top navbar-bg-1"
+      id="navbar"
+    >
+      <a class="navbar-brand" href="index.html"
+        ><img src="Images/SomSec-Transperant.png" class="smlogo"
+      /></a>
+      <button
+        id="navbar-icon"
+        class="navbar-toggler custom-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav ml-auto navbar-font-color navbar-text-content"
+          id="navbar-font"
+        >
+          <li class="nav-item">
+            <a class="nav-link" id="nav-color" href="../../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" id="nav-color"
+              >About&nbsp;Us</a
+            >
+          </li>
+          <li>
+            <div class="dropdown show nav-item">
+              <a
+                class="dropdown-toggle dropdown nav-link"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a
+                  href="services/web-applications.html"
+                  class="dropdown-item"
+                  id="dropdown"
+                  >Web Applications</a
+                >
+                <a
+                  href="services/e-commerce-applications.html"
+                  class="dropdown-item"
+                  id="dropdown"
+                  >E-commerce Applications</a
+                >
+                <a
+                  href="services/crm-erp.html"
+                  class="dropdown-item"
+                  id="dropdown"
+                  >CRM/ERP</a
+                >
+                <a
+                  href="services/software-devlopment.html"
+                  class="dropdown-item"
+                  id="dropdown"
+                  >Software Devlopment</a
+                >
+                <a
+                  href="services/mobile-app-devlopment.html"
+                  class="dropdown-item"
+                  id="dropdown"
+                  >Mobile App Devlopment</a
+                >
+                <a
+                  href="services/security-assement-services.html"
+                  class="dropdown-item"
+                  id="dropdown"
+                  >Security Assesment Services</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="expertise.html" id="nav-color"
+              >Expertise</a
+            >
+          </li>
+        </ul>
+      </div>
+      <a
+        href="get-in-touch.html"
+        class="nav-btn d-none d-md-block"
+        id="navbar-btn"
+        >Get In Touch</a
+      >
     </nav>
-    <!-- Banner -->
-    <section id="banner">
-      <i class="icon fa-diamond"></i>
-      <h2>Diamond Shield Consulting</h2>
-      <p>safeguarding businesses and individuals from digital threats...</p>
-      <ul class="actions">
-        <li><a href="about.html" class="button big special">Learn More</a></li>
-      </ul>
-    </section>
-    <!-- One -->
-    <section id="one" class="wrapper style1">
-      <div class="inner">
-        <article class="feature left">
-          <span class="image"
-            ><img src="images/pic01.jpg" alt="" width="576" height="358"
-          /></span>
-          <div class="content">
-            <h2>Integer vitae libero acrisus egestas placerat sollicitudin</h2>
-            <p>
-              Sed egestas, ante et vulputate volutpat, eros pede semper est,
-              vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-              adipiscing, commodo quis, gravida id, est.
-            </p>
-            <ul class="actions">
-              <li>
-                <a href="#" class="button alt">More</a>
-              </li>
-            </ul>
-          </div>
-        </article>
-        <article class="feature right">
-          <span class="image"
-            ><img src="images/pic02.jpg" alt="" width="576" height="358"
-          /></span>
-          <div class="content">
-            <h2>Integer vitae libero acrisus egestas placerat sollicitudin</h2>
-            <p>
-              Sed egestas, ante et vulputate volutpat, eros pede semper est,
-              vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-              adipiscing, commodo quis, gravida id, est.
-            </p>
-            <ul class="actions">
-              <li>
-                <a href="#" class="button alt">More</a>
-              </li>
-            </ul>
-          </div>
-        </article>
+
+    <!--Background Header-->
+    <div class="bg-hero-header jumbotron jumbotron-fluid">
+      <br />
+      <br />
+      <div id="container" class="home-hero-text">
+        <h1>We Deliver</h1>
+        <div id="text"></div>
+        <div id="cursor"></div>
       </div>
-    </section>
-    <!-- Two -->
-    <section id="two" class="wrapper special">
-      <div class="inner">
-        <header class="major narrow">
-          <h2>Aliquam Blandit Mauris</h2>
-          <p>
-            Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed
-            amet accumsan
-          </p>
-        </header>
-        <div class="image-grid">
-          <a href="#" class="image"
-            ><img src="images/pic03.jpg" alt="" width="299" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic04.jpg" alt="" width="299" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic05.jpg" alt="" width="300" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic06.jpg" alt="" width="300" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic07.jpg" alt="" width="300" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic08.jpg" alt="" width="300" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic09.jpg" alt="" width="300" height="200"
-          /></a>
-          <a href="#" class="image"
-            ><img src="images/pic10.jpg" alt="" width="300" height="200"
-          /></a>
+    </div>
+
+    <!--About Home-->
+    <div class="container-fluid about-content">
+      <div class="content" data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-6 no-padding">
+            <h6>About&nbsp;Us</h6>
+            <h1 class="about-home-h1">SomSec Technologies</h1>
+            <p>
+              SomSec Technologies is one of leading Red hat Linux Environment,
+              Cyber Security, Networking, Coding, Developing, Cloud Computing,
+              with latest technologies by Training and Certifications.
+              <br />
+              <br />
+              We are currently providing High-Tech Service and Training with
+              Certifications, We work in collaboration with reputed National as
+              well as International IT organizations, Universities, industries,
+              Banks, E-commerce, Cloud service platform, Manufacturing, Health
+              care to provide the best solutions.
+              <br />
+              <br />
+              SomSec Technologies provides solutions that enable business and
+              empower our customers.
+            </p>
+            <br />
+
+            <a href="about.html"
+              ><button class="about-home-btn" id="navbar-btn">
+                Read More
+              </button></a
+            >
+          </div>
+          <div class="col-md-6 no-padding">
+            <center>
+              <img
+                src="Images/Aboutus.png"
+                class="rounded about-home-image"
+                width="70%"
+              />
+            </center>
+          </div>
         </div>
-        <ul class="actions">
-          <li><a href="#" class="button big alt">Tempus Aliquam</a></li>
-        </ul>
       </div>
-    </section>
-    <!-- Three -->
-    <section id="three" class="wrapper style3 special">
-      <div class="inner">
-        <header class="major narrow">
-          <h2>Magna sed consequat tempus</h2>
-          <p>
-            Ipsum dolor tempus commodo turpis adipiscing Tempor placerat sed
-            amet accumsan
+    </div>
+    <img src="Images/Image-divider.png" width="100%" class="img-spectra" />
+
+    <!--Why Us-->
+    <div class="why-us-home">
+      <div class="container-fluid content">
+        <center>
+          <h1 data-aos="fade-up">Why Us?</h1>
+          <p data-aos="zoom-in">
+            Acknowledging the value for your money and time, SomSec Technologies
+            furnishes you with an entire
+            <br />
+            7-layer education pattern for High-Tech services.
           </p>
-        </header>
-        <ul class="actions">
-          <li><a href="#" class="button big alt">Magna feugiat</a></li>
-        </ul>
+        </center>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Bulb-2.png" />
+            </center>
+            <p class="text-center">
+              We INSPIRE you to think like<br />
+              a Coding Professional
+            </p>
+          </div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Education-1.png" />
+            </center>
+            <p class="text-center">
+              We EDUCATE you with the <br />
+              essential Technologies
+            </p>
+          </div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Question-1.png" />
+            </center>
+            <p class="text-center">
+              We PERPLEX you with the
+              <br />flavours of the concept
+            </p>
+          </div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Bulb-1.png" width="150" />
+            </center>
+            <p class="text-center">
+              You LEARN the concept at<br />
+              your pace
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row" data-aos="fade-left">
+          <div class="col-md-3"></div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Paper-1.png" />
+            </center>
+            <p class="text-center">
+              You PRACTICE the concept in<br />
+              Real-Time
+            </p>
+          </div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Bulb-3.png" />
+            </center>
+            <p class="text-center">
+              You SOLVE the problems<br />
+              with troubleshot
+            </p>
+          </div>
+          <div class="col-md-2">
+            <center>
+              <img src="Images/Paper-2.png" />
+            </center>
+            <p class="text-center">
+              We APPLY the concept in a<br />
+              simulated Real Industry.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
-    <!-- Four -->
-    <section id="four" class="wrapper style2 special">
-      <div class="inner">
-        <header class="major narrow">
-          <h2>Get in touch</h2>
-          <p>Ipsum dolor tempus commodo adipiscing</p>
-        </header>
-        <form action="#" method="POST">
-          <div class="container 75%">
-            <div class="row uniform 50%">
-              <div class="6u 12u$(xsmall)">
-                <input name="name" placeholder="Name" type="text" />
+    </div>
+
+    <!--Mission & Vision-->
+    <div class="mission-vision" data-aos="fade-down">
+      <div class="container-fluid">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-6 vision">
+              <center>
+                <img src="Images/Vision-1.png" />
+              </center>
+              <p class="text-center">
+                To be the leading reliable Hi-Tech solutions provider of choice
+                through
+                <br />
+                exceptional quality, teamwork, professionalism, integrity,
+                innovative <br />
+                systems and customer relations in the world
+              </p>
+            </div>
+            <div class="col-md-6 mission">
+              <center>
+                <img src="Images/Mission-1.png" />
+              </center>
+              <p class="text-center">
+                As a Hi-Tech provider, we endeavour to implement a total
+                Technology<br />
+                service to our valued customers by having skilled, experienced
+                and<br />
+                knowledgeable staff to meet their needs, and by serving them
+                with<br />
+                dedication, honesty and professionalism.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Our Services-->
+    <div class="container-fluid our-services">
+      <h1 class="text-center" data-aos="fade-up">Our Services</h1>
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-4 no-padding">
+          <div class="services">
+            <h3>
+              <span class="fa-stack fa-1x blue">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              </span>
+              Website Devlopment
+            </h3>
+            <p>
+              Somsec Technologies provides end-to-end application<br />
+              maintenance as it is imperative to update, re-assess,<br />
+              and modify the applications persistently.
+            </p>
+            <a href="services/web-applications.html"
+              ><button>Read More</button></a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 no-padding">
+          <div class="services">
+            <h3>
+              <span class="fa-stack fa-1x green">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              </span>
+              E-commerce Application
+            </h3>
+            <p>
+              Somsec Technologies delivers intelligent software that<br />
+              becomes central for businesses to stay ahead and<br />
+              generate top line growth in quick and agile way.
+            </p>
+            <a href="services/e-commerce-applications.html"
+              ><button>Read More</button></a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 no-padding">
+          <div class="services mb-app">
+            <h3>
+              <span class="fa-stack fa-1x red">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-mobile fa-stack-1x fa-inverse"></i>
+              </span>
+              Mobile Application
+            </h3>
+            <p>
+              Smart phones are the first thing many people look<br />
+              at when they wake up and the last thing they look<br />
+              at before falling asleep.It’s time to start thinking of<br />
+              it as the first screen.
+            </p>
+            <a href="services/mobile-app-devlopment.html"
+              ><button>Read More</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-down">
+        <div class="col-md-4 no-padding">
+          <div class="services">
+            <h3>
+              <span class="fa-stack fa-1x yellow">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+              </span>
+              Software Devlopment
+            </h3>
+            <p>
+              With all the different platforms and software we use,<br />
+              it can get confusing and breakages can be recognized<br />
+              at times. Within this, we offer integration of Web services<br />
+              with Service Oriented Architectures
+            </p>
+            <a href="services/software-devlopment.html"
+              ><button>Read More</button></a
+            >
+          </div>
+        </div>
+        <div class="col-md-4 no-padding">
+          <div class="services">
+            <h3>
+              <span class="fa-stack fa-1x lime">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-file-invoice fa-stack-1x fa-inverse"></i>
+              </span>
+              CRM/ERP
+            </h3>
+            <p>
+              CRM (Customer Relationship Management) and ERP<br />
+              (Enterprise Resource Planning) are two crucial elements<br />
+              of a business entity. We, at Somsec Technologies,<br />
+              provide both the above mentioned integrated solutions<br />
+            </p>
+            <a href="services/crm-erp.html"><button>Read More</button></a>
+          </div>
+        </div>
+        <div class="col-md-4 no-padding">
+          <div class="services">
+            <h3>
+              <span class="fa-stack fa-1x orange">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-fingerprint fa-stack-1x fa-inverse"></i>
+              </span>
+              Security Assesment Services
+            </h3>
+            <p>
+              Based on your business goals, vision, and target<br />
+              audience, our UX/UI experts suggest the most<br />
+              appropriate product design for your software<br />
+              product development.
+            </p>
+            <a href="services/security-assement-services.html"
+              ><button>Read More</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Our Partners-->
+    <div class="our-partners" data-aos="fade-up">
+      <h1 class="text-center">Our Partners</h1>
+      <div class="container-fluid">
+        <div class="content">
+          <div class="justify-content-center">
+            <div class="row">
+              <div class="col-md-4 partner-logo">
+                <img src="Images/Cycops-Logo.png" width="70%" />
               </div>
-              <div class="6u$ 12u$(xsmall)">
-                <input name="email" placeholder="Email" type="email" />
+              <div class="col-md-4 partner-logo">
+                <img src="Images/Annamraju-Logo.png" width="70%" />
               </div>
-              <div class="12u$">
-                <textarea
-                  name="message"
-                  placeholder="Message"
-                  rows="4"
-                ></textarea>
+              <div class="col-md-4 partner-logo">
+                <img src="Images/Entersoftlabs-Logo.png" width="80%" />
               </div>
             </div>
           </div>
-          <ul class="actions">
-            <li><input type="submit" class="special" value="Submit" /></li>
-            <li><input type="reset" class="alt" value="Reset" /></li>
-          </ul>
-        </form>
+        </div>
       </div>
-    </section>
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="inner">
-        <ul class="icons">
-          <li>
-            <a href="#" class="icon fa-facebook">
-              <span class="label">Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="icon fa-twitter">
-              <span class="label">Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="icon fa-instagram">
-              <span class="label">Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="icon fa-linkedin">
-              <span class="label">LinkedIn</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <div class="copyright">
-      Dimond Shield Consulting: <a href="https://diamondshield.com/">2024</a>
     </div>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <!--[if lte IE 8
-      ]><script src="assets/js/ie/respond.min.js"></script
-    ><![endif]-->
-    <script src="assets/js/main.js"></script>
+    <!--Footer-->
+    <footer class="container-fluid footer" data-aos="fade-up">
+      <center>
+        <img src="Images/SomSec-Transperant.png" />
+        <p class="text-center footer-text">
+          Technology is not just about speeding up the process and allowing
+          flexibility, but it can transform how a business functions and will
+          save<br />
+          a company time and money if implemented and maintained properly.
+        </p>
+        <div class="footer-form text-center">
+          <form class="form-inline justify-content-center">
+            <div class="form-group">
+              <label for="footerName" class="sr-only">Name</label>
+              <input
+                type="text"
+                id="footerName"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="footerEmail" class="sr-only">Email</label>
+              <input
+                type="email"
+                id="footerEmail"
+                class="form-control"
+                placeholder="Email Adress"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+        <div class="social-media-icons">
+          <a
+            class="fa-stack fa-2x"
+            href="https://www.facebook.com/somsectechnologies"
+            target="_blank"
+          >
+            <i class="fas fa-circle fa-stack-2x facebook"></i>
+            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+          </a>
+          <a
+            class="fa-stack fa-2x"
+            href="https://twitter.com/SomSec_Techno"
+            target="_blank"
+          >
+            <i class="fas fa-circle fa-stack-2x twitter"></i>
+            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+          </a>
+          <a
+            class="fa-stack fa-2x"
+            href="https://www.linkedin.com/company/somsec-technologies"
+            target="_blank"
+          >
+            <i class="fas fa-circle fa-stack-2x linkedin-in"></i>
+            <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+          </a>
+          <!--<a class="fa-stack fa-2x" href="#">
+                    <i class="fas fa-circle fa-stack-2x mail"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </a>-->
+        </div>
+        <p class="copyright">
+          <i class="far fa-copyright"></i> 2021 SomSec Technologies. All Copy
+          Rights Reserved by SomSec, Designed & Developed by
+          <a href="https://annamrajus.com/" target="_blank"
+            >AD & Technologies</a
+          >
+        </p>
+      </center>
+    </footer>
+    <img src="Images/Footer-end.png" width="100%" />
+    <!--JavaScript-->
+    <script src="js/navbar.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/typedelete.js"></script>
+    <script src="dist/aos.js"></script>
+    <script src="js/aosinit.js"></script>
+    <!--Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
   </body>
+
+  <!-- Mirrored from somsec.n../../index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Feb 2024 12:29:47 GMT -->
 </html>

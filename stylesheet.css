@@ -1,0 +1,925 @@
+﻿/*Import Fonts*/
+
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/trebuc.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'niconne';
+    src: url('fonts/trebuc.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'trebuc';
+    src: url('fonts/trebuc.woff') format('woff');
+}
+
+body {
+    font-family: 'trebuc' !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #051441;
+}
+
+
+/* All Pages */
+.container-fluid {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+/*Navbar*/
+
+
+.navbar {
+    transition: background 0.5s linear;
+    margin-bottom: 0px !important;
+    padding: 10px !important;
+    padding-right: 65px !important;
+}
+
+.smlogo {
+    width: 150px !important;
+    margin-left: 50px;
+}
+
+.nav-link {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #141414 !important;
+}
+
+    .nav-link:hover {
+        color: #000 !important;
+    }
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    background: #2083c6;
+    transition: 0.5s ease;
+}
+
+.dropdown a {
+    transition: 0.6s ease !important;
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+    .dropdown a:hover {
+        transition: 0.6s ease !important;
+        color: #000 !important;
+    }
+
+#dropdown {
+    color: #000 !important;
+}
+
+.nav-item {
+    width: 100% !important
+}
+
+    .nav-item:hover::after {
+        width: 90%
+    }
+
+.navbar-bg-1 {
+    background: #020230;
+}
+
+.services-nav {
+    color: #fff !important;
+}
+
+.navbar-font-color a {
+    color: #f1f1f1 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+.bg-light {
+    transition: 0.5s ease;
+    box-shadow: 1px 9px 26px -6px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px 9px 26px -6px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 9px 26px -6px rgba(0,0,0,0.35);
+}
+
+.navbar-font-color a:hover {
+    color: #f2f2f2 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown button {
+    transition: 0.6s ease !important;
+}
+
+    .dropdown button:hover {
+        transition: 0.6s ease !important;
+    }
+
+.nav-btn {
+    box-sizing: border-box !important;
+    border-radius: 9px !important;
+    background: none !important;
+    border: 1px solid #f1f1f1 !important;
+    color: #f1f1f1;
+    text-decoration: none !important;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+
+.navbar-text-content {
+    align-content: center !important;
+}
+
+.nav-btn:hover {
+    box-sizing: border-box !important;
+    border-radius: 9px !important;
+    background: #f1f1f1 !important;
+    border: 1px solid #f1f1f1 !important;
+    color: #051441;
+    transition: 0.5s ease;
+}
+
+.navbar-btn-scroll {
+    border-color: #051441 !important;
+    color: #051441 !important;
+}
+
+    .navbar-btn-scroll:hover {
+        background: #051441 !important;
+        color: #fff !important;
+    }
+
+
+
+/*Landing*/
+
+.jumbotron {
+    color: white;
+    background: url("Images/Background-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 85vh;
+    margin-bottom: 0%;
+}
+
+.home-hero-text h1 {
+    color: #f1f1f1 !important;
+    margin-top: 100px;
+    margin-left: 65px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.home-hero-text {
+    margin-bottom: 50px;
+}
+
+#text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-left: 65px;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    font-size: 64px;
+}
+
+#cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 50px;
+    background: #fff;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        background: transparent
+    }
+
+    50% {
+        background: #fff;
+    }
+}
+
+.home-hero-btn {
+    border-radius: 87px;
+    border: 1px solid #f3aa06;
+    background: #f3aa06;
+    color: #f1f1f1;
+    padding: 15px 40px;
+    background: linear-gradient(273.58deg, #F3AA06 1.82%, #F3AA06 93.32%);
+    box-shadow: 0px 4px 20px rgba(3, 34, 143, 0.2);
+    margin-left: 65px;
+}
+
+
+
+
+
+/*Home Page About*/
+
+.no-padding {
+    margin-left: 0px !important;
+    padding: 0px !important;
+    margin-right: 0px !important;
+}
+
+.about-home-image {
+    padding: 10px!important;
+}
+
+.about-home-btn {
+    border-radius: 87px;
+    border: 1px solid #f3aa06;
+    background: #f3aa06;
+    color: #f1f1f1;
+    padding: 15px 40px;
+    background: linear-gradient(273.58deg, #F3AA06 1.82%, #F3AA06 93.32%);
+    box-shadow: 0px 4px 20px rgba(3, 34, 143, 0.2);
+    margin-left: 0px !important;
+    transition: 0.6s ease;
+}
+
+    .about-home-btn:hover {
+        border: 1px solid #051441;
+        color: #fff;
+        background: linear-gradient(273.58deg, #051441 1.82%, #051441 93.32%);
+        box-shadow: 0px 4px 20px rgba(3, 34, 143, 0.2);
+        transition: 0.5s ease;
+    }
+
+.img-spectra {
+    padding-bottom: 50px !important;
+}
+/* Why Us */
+.why-us-home h1 {
+    font-weight: 900 !important;
+    color: #051441;
+}
+/* Mission Vision*/
+
+.mission-vision {
+    margin-top: 90px !important;
+}
+
+.vision {
+    background: #2083c6;
+    padding: 50px !important;
+    color: #fff !important;
+}
+
+.mission {
+    background: #f3aa06;
+    padding: 50px !important;
+    color: #fff !important;
+}
+
+/*Our Services Home*/
+.our-services {
+    padding-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #FAFAFD !important;
+}
+
+    .our-services h1 {
+        padding-bottom: 50px;
+        font-weight: 700;
+    }
+
+our-services.col-md-4.no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.services {
+    padding: 30px !important;
+    box-shadow: 0px 9px 40px -14px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 9px 40px -14px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 9px 40px -14px rgba(0,0,0,0.32);
+    border-radius: 8px;
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+    .services h3 {
+        font-weight: 700 !important;
+        font-size: 24px;
+    }
+
+    .services p {
+        padding-top: 45px !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        color: #454545 !important;
+    }
+
+    .services button {
+        margin-top: 45px !important;
+        border-radius: 87px;
+        border: 1px solid #f3aa06;
+        background: #f3aa06;
+        color: #f1f1f1;
+        padding: 15px 40px;
+        background: linear-gradient(273.58deg, #F3AA06 1.82%, #F3AA06 93.32%);
+        box-shadow: 0px 4px 20px rgba(3, 34, 143, 0.2);
+        margin-left: 0px !important;
+        transition: 0.6s ease;
+    }
+
+        .services button:hover {
+            color: #fff !important;
+            background: #051441 !important;
+            border-color: #051441 !important;
+            transition: 0.6s ease !important;
+        }
+
+.blue {
+    color: #1F85C7;
+}
+
+.green {
+    color: #1FC978;
+}
+
+.red {
+    color: #DD2F2F;
+}
+
+.yellow {
+    color: #C7AC1F;
+}
+
+.lime {
+    color: #9DC91F;
+}
+
+.orange {
+    color: #DD782F;
+}
+
+.mb-app button {
+    margin-top: 22px !important;
+}
+
+/* Our Partners Home*/
+.our-partners {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 50px;
+    box-shadow: 0px 10px 36px -13px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 0px 10px 36px -13px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 10px 36px -13px rgba(0,0,0,0.53);
+    border-radius: 55px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+    .our-partners img {
+        padding-top: 95px;
+    }
+
+/* Footer */
+
+.footer {
+    margin-top: 100px;
+}
+
+
+.footer-text {
+    color: #454545;
+    padding-top: 50px;
+}
+
+.facebook {
+    color: #3B5998;
+    text-shadow: 0px 2px 14px rgba(59, 89, 152, 0.65);
+}
+
+.linkedin-in {
+    color: #0A66C2;
+    text-shadow: 0px 2px 14px rgba(10,102,194,0.54);
+}
+
+.twitter {
+    color: #1DA1F2;
+    text-shadow: 0px 2px 14px rgba(29, 161, 242, 0.65);
+}
+
+.mail {
+    color: #EA4335;
+    text-shadow: 0px 2px 14px rgba(234, 67, 53, 0.65);
+}
+
+.footer .fa-stack:hover {
+    transform: scale(1.1);
+    transition: 0.6s ease !important;
+}
+
+.footer .fa-stack {
+    transition: 0.6s ease;
+    margin-bottom: 10px !important;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.btn-primary {
+    background: #f3aa06 !important;
+    border-color: #f3aa06 !important;
+}
+
+.social-media-icons {
+    margin-right: 0px !important;
+    padding-top: 30px !important;
+    transition: 0.6s ease !important;
+}
+
+.copyright {
+    color: #454545 !important;
+    margin-top: 85px !important;
+}
+
+    .copyright a {
+        color: #051441;
+        transition: 0.6s ease !important;
+    }
+
+        .copyright a:hover {
+            color: #f3aa06 !important;
+            text-decoration: none !important;
+            transition: 0.6s ease !important;
+        }
+
+/* About Us Page*/
+
+.about-content {
+    background: #fafafd;
+    padding: 50px !important;
+}
+
+    .about-content h1 {
+        font-weight: 900;
+        color: #051441;
+    }
+
+    .about-content h6 {
+        color: #f3aa06;
+        font-weight: 400;
+    }
+
+    .about-content p {
+        font-weight: 400;
+        font-size: 15px !important;
+        line-height: 22.5px;
+    }
+
+
+.bg-page-header.jumbotron {
+    color: white;
+    background: #020230;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 35vh;
+    margin-bottom: 0%;
+}
+
+.header-text h1 {
+    color: #fff !important;
+    font-weight: 400;
+}
+
+.about-points li {
+    list-style-type: none !important;
+}
+
+.about-2 {
+    margin-top: 150px !important;
+}
+
+    .about-2 h1 {
+        font-weight: 800;
+    }
+
+.our-values {
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    margin-top: 150px !important;
+    padding: 70px !important;
+    background: url(Images/About-Our-Valves-Bg.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    color: #fff !important;
+    margin-bottom: 100px !important;
+    border-radius: 25px !important;
+}
+
+    .our-values h1 {
+        color: #fff !important;
+    }
+
+/* Services*/
+
+.web-apps {
+    padding-top: 75px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+    .web-apps h1 {
+        font-weight: 800 !important;
+    }
+
+    .web-apps p {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        color: #454545 !important;
+    }
+
+.software-devlopment {
+    padding-left: 50px !important;
+    padding-top: 75px !important;
+    padding-right: 50px !important;
+}
+
+    .software-devlopment h1 {
+        font-weight: 800 !important;
+    }
+
+    .software-devlopment p {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        color: #454545 !important;
+    }
+
+.mobile-devlopment {
+    padding-left: 50px !important;
+    padding-top: 75px !important;
+    padding-right: 50px !important;
+}
+
+    .mobile-devlopment h1 {
+        font-weight: 800 !important;
+    }
+
+    .mobile-devlopment p {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        color: #454545 !important;
+    }
+
+.e-commerce-apps {
+    padding-left: 100px !important;
+    padding-top: 75px !important;
+    padding-right: 50px !important;
+}
+
+    .e-commerce-apps h1 {
+        font-weight: 800 !important;
+    }
+
+    .e-commerce-apps p {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        color: #454545 !important;
+    }
+
+.e-commerce-features {
+    padding-top: 100px !important;
+    margin-bottom: 70px !important;
+}
+
+.e-commerce-image {
+    margin-left: 70px !important;
+}
+
+.e-commerce-features p {
+    margin-top: 30px !important;
+}
+
+.e-commerce-features-boxes {
+    box-shadow: 1px 4px 20px -3px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 1px 4px 20px -3px rgba(0,0,0,0.28);
+    -moz-box-shadow: 1px 4px 20px -3px rgba(0,0,0,0.28);
+    padding: 30px !important;
+    border-radius: 9px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 20px !important;
+    transition: 0.6s ease !important;
+}
+
+    .e-commerce-features-boxes:hover {
+        transform: scale(1.1);
+        transition: 0.6s ease !important;
+    }
+
+.search-circle-1 {
+    color: rgba(234, 67, 53, 0.1);
+}
+
+.search-circle-2 {
+    color: rgba(31, 133, 199, 0.1);
+}
+
+.search-circle-3 {
+    color: rgba(157, 201, 31, 0.2);
+}
+
+.search-circle-4 {
+    color: rgba(31, 201, 120, 0.1);
+}
+
+.search-circle-5 {
+    color: rgba(177, 31, 201, 0.1);
+}
+
+.search-circle-6 {
+    color: rgba(45, 31, 201, 0.1);
+}
+
+.fa-search {
+    color: #EA4335;
+}
+
+.fa-sort-amount-up {
+    color: #1F85C7;
+}
+
+.fa-exclamation {
+    color: #9DC91F;
+}
+
+.fa-shopping-basket {
+    color: #1FC978;
+}
+
+.fa-list {
+    color: #B11FC9;
+}
+
+.fa-window-maximize {
+    color: #2D1FC9;
+}
+
+.crm-erp {
+    padding-left: 50px !important;
+    padding-top: 75px !important;
+    padding-right: 50px !important;
+}
+
+    .crm-erp h1 {
+        font-weight: 800 !important;
+    }
+
+    .crm-erp p {
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        color: #454545 !important;
+    }
+
+.crm-erp-points ul li {
+    list-style-type: none !important;
+    font-size: 15px !important;
+}
+
+.crm-erp-points li {
+    margin-bottom: 20px !important;
+}
+
+.crm-erp-points img {
+    padding-right: 20px !important;
+}
+
+.security-assement {
+    padding-top: 75px !important;
+}
+
+    .security-assement ul li {
+        padding-top: 15px !important;
+        padding-right: 100px !important;
+        padding-left: 100px !important;
+        list-style-type: none !important;
+    }
+
+.security-assement-points {
+    padding-top: 75px !important;
+}
+
+.security-assement h1 {
+    font-weight: 800;
+}
+
+/*Expertise*/
+.expertise {
+    padding-top: 71px !important;
+}
+
+    .expertise h2 {
+        font-weight: 800;
+    }
+
+/*Get In Touch Form*/
+.contact-us input {
+    border: 0;
+    outline: 0;
+    background: transparent !important;
+    border-bottom: 1px solid #f1f1f1 !important;
+    color: #818181 !important;
+}
+
+.contact-us label {
+    color: #f1f1f1 !important;
+}
+
+.get-in-touch-main {
+    margin-top: 70px !important;
+    margin-right: 100px !important;
+    margin-left: 100px !important;
+}
+
+.get-in-touch-main {
+    box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.39);
+}
+
+.get-in-touch-left {
+    padding-top: 100px !important;
+}
+
+.get-in-touch-bg {
+    background: #020230 !important;
+    padding: 40px !important;
+}
+
+.get-in-touch-col {
+    padding-right: 0px !important;
+}
+
+.contact-icons {
+    margin-top: 100px !important;
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+    margin-bottom: 100px !important;
+}
+
+.contact-icon-circle {
+    text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.36);
+    color: white !important;
+}
+
+.contact-icon {
+    color: #f3aa06 !important;
+}
+
+.form-submit-btn {
+    padding: 14px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 87px !important;
+}
+/*Mobile Config*/
+@media (max-width: 780px) {
+
+    .jumbotron {
+        padding-top: 50px !important;
+        height: 37vh !important;
+        padding-bottom: 0px !important;
+    }
+
+    .home-hero-text h1 {
+        margin-top: 150px !important;
+    }
+
+
+    .nav-btn {
+        display: none !important;
+    }
+
+    #text {
+        font-size: 30px;
+        margin-bottom: 0px !important;
+    }
+
+    .home-hero-text h1 {
+        font-size: 30px;
+        margin-top: 5px !important;
+    }
+
+
+    .partner-logo {
+        margin-left: 20px !important;
+    }
+
+    .footer-form {
+        width: 50px !important;
+    }
+
+    .home-hero-btn {
+        font-size: 16px !important;
+        padding: 10px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-top: 0px !important;
+    }
+
+    .our-partners {
+        padding-left: 30px !important;
+        padding-right: 20px !important;
+    }
+
+        .our-partners img {
+            width: 70% !important;
+        }
+}
+
+
+@media (max-width: 480px) {
+    .jumbotron {
+        height: 50vh !important;
+    }
+
+    .home-hero-text h1 {
+        font-size: 20px !important;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    #text {
+        font-size: 20px !important;
+    }
+
+    .home-hero-btn {
+        font-size: 10px !important;
+    }
+
+    .form-control {
+        width: 200px !important;
+    }
+
+    .our-values {
+        background: url('Images/About-Our-Valves-Bg.png'), linear-gradient(90deg, rgba(2,2,48,1) 0%, rgba(27,27,140,1) 100%);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media(min-width: 480px) {
+    .form-control {
+        border-radius: 0px !important;
+    }
+
+    .mx-sm-3 {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+
+    .navbar-dark .navbar-nav .active > .nav-link,
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link.show,
+    .navbar-dark .navbar-nav .show > .nav-link,
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #2083c6 !important;
+        transition: 0.5s ease;
+    }
+
+    .nav-link {
+        padding: 5px 2px;
+        transition: 0.5s ease;
+        font-size: 14px;
+        margin: 20px;
+        margin-bottom: 10px;
+    }
+
+        .nav-link.active {
+            color: #2083c6 !important;
+        }
+}
